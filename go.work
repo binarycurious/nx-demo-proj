@@ -1,0 +1,6 @@
+go 1.19
+
+use (
+	apps/api/astro
+	apps/api/sneaky-api
+)
