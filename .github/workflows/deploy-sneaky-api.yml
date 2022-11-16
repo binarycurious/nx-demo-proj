@@ -3,7 +3,7 @@ name: deploy-sneaky-api
 on:
   push:
     branches:
-      - master
+      - deploy
   pull_request:
 
 jobs:
