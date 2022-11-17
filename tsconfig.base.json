@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@binarycurious/ui-react-one": ["libs/react/demo-lib/src/index.ts"]
+      "@binarycurious/ui-react-one": ["libs/react/demo-lib/src/index.ts"],
+      "@nx-projects/react/payment-form": [
+        "libs/react/payment-form/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

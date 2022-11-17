@@ -1,7 +1,7 @@
 {
-  "name": "react-demo-lib",
+  "name": "react-payment-form",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/react/demo-lib/src",
+  "sourceRoot": "libs/react/payment-form/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -9,14 +9,14 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/react/demo-lib/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["libs/react/payment-form/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "libs/react/demo-lib/jest.config.ts",
+        "jestConfig": "libs/react/payment-form/jest.config.ts",
         "passWithNoTests": true
       }
     }
